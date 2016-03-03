@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+
   font: normal 100%/1.5 Roboto, sans-serif;
 }
 
@@ -15,6 +16,7 @@ img {
 .icon-group {
   margin: 0;
   padding: 0;
+
   list-style-type: none;
   text-align: center;
 }
@@ -25,9 +27,11 @@ img {
   max-width: 25em;
   padding: .5em;
   width: calc(100% - .6em);
+
   background-color: #f2f2f2;
   border: 3px solid #ccc;
   border-radius: 80px;
+
   color: #333;
   text-align: left;
   vertical-align: middle;
@@ -37,12 +41,14 @@ img {
   display: inline-block;
   margin-right: .4em;
   width: 64px;
+
   vertical-align: middle;
 }
 
 .icon-group-body {
   display: inline-block;
   width: calc(100% - 64px - .8em);
+
   vertical-align: middle;
 }
 
